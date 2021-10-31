@@ -7,6 +7,10 @@ rate=engine.getProperty('rate')
 engine.setProperty('rate',180)
 engine.setProperty('voice',voices[0].id)
 
+#follow proper coding standards
+#do error handling correctly
+#add some  test cases and validation
+
 def speak(audio):
     engine.say(audio)
     print(audio)
